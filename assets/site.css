@@ -19,6 +19,7 @@
 /* refactored */
 a {
     text-decoration: none;
+    color: red;
 }
 .ellipsis {
     white-space: nowrap;
@@ -166,8 +167,7 @@ h2 {
     clear: both;
 }
 main .product,
-main #packaging-shipping,
-main #faq,
+main #terms,
 main #about {
     max-width: 50em;
     margin: auto;
