@@ -19,7 +19,7 @@
 /* refactored */
 a {
     text-decoration: none;
-    color: red;
+    color: #c73031;
 }
 .ellipsis {
     white-space: nowrap;
@@ -48,7 +48,7 @@ h2 {
 }
 .product h3 {
     margin-top: 2em;
-    color:red;
+    color:#c73031;
 }
 
 .product table {
@@ -74,7 +74,7 @@ h2 {
 #category-nav .unit .button:hover,
 #category-nav .unit .button-active {
     color: white;
-    background-color: #c81623;
+    background-color: #c73031;
 }
 
 #category-list,
@@ -105,7 +105,7 @@ h2 {
 }
 .category-box:hover .category-title {
     color: white;
-    background-color: #c81623;
+    background-color: #c73031;
 }
 .product-box:hover {
     transform: translateY(-0.5em);
@@ -177,7 +177,8 @@ header {
     /*border-top: 5px solid #424242;*/
     border-top:none;
     padding: 1em 0 .5em;
-    background-color: #c81623;
+    background-image: url(bgtile5b.jpg);
+    /*background-color: #c81623;*/
     border-bottom: 1px solid #e8e8e8;
     line-height: 4;
     min-height: 3em;
@@ -198,9 +199,6 @@ footer ul {
 }
 footer .contact-list {
     margin-right: 2em;
-}
-footer .contact-list a {
-    color: #c81623;
 }
 #social-media-list .unit {
     float: left;
@@ -224,31 +222,17 @@ footer .contact-list a {
 }
 
 #site-title {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Segoe UI Symbol","Segoe UI Emoji","Apple Color Emoji",Roboto,Helvetica,Arial,sans-serif;
-    font-size: 1rem;
-    line-height: 22px;
-    float: left;
-
-    text-transform: none;
-    padding: 0.2em 0;
+    padding-top:0;
+    padding-bottom:0;
 }
-#site-title,
-#site-title:visited {
-    color: white;
-}
-#site-title > .logo {
-    font-family: 'Knewave', cursive;
-    font-size: 3rem;
-}
-#site-title > .sub-title {
-    padding-left: 20px;
-    letter-spacing: -1px;
+#site-title > img.logo {
+    max-height:5em;
 }
 
 #site-nav {
     z-index: 199;
     position: absolute;
-    top: 9px;
+    top: 18px;
     right: 15px;
     background-color: #fdfdfd;
     border: 1px solid #e8e8e8;
@@ -337,6 +321,7 @@ footer .contact-list a {
 
     #site-nav {
         position:static;
+        margin-top: 0.5em;
         float: right;
         border: none;
         background-color: inherit;
@@ -352,12 +337,11 @@ footer .contact-list a {
     }
 
     #site-nav .menu-link {
-        color: white;
+        color: #ddd;
     }
     #site-nav .menu-link:hover {
-        background-color: transparent;
-        text-decoration: none;
-        text-shadow: 6px 3px 6px black;
+        transform: translateY(-0.1rem);
+        color: #eee;
     }
     #site-nav label[for="nav-toggle"] {
         display: none
