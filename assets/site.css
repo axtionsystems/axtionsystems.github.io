@@ -31,9 +31,9 @@ a {
     overflow: visible;
 }
 
-.text-center {text-align:center;}
-.text-right {text-align:right;}
-.text-left {text-align:left;}
+.text-center {text-align:center!important;}
+.text-right {text-align:right!important;}
+.text-left {text-align:left!important;}
 .box-center {margin: 0 auto; width:fit-content;}
 
 .home-header {
@@ -58,8 +58,8 @@ h2 {
     color: #3f3f3f;
 }
 /* .table-striped */
-.product table tr:nth-child(odd) td,
-.product table tr:nth-child(odd) th {
+.product table tr:nth-child(even) td,
+.product table tr:nth-child(even) th {
     background-color: #f2f2f2;
 }
 
@@ -239,7 +239,6 @@ footer .contact-list a {
 }
 #site-title,
 #site-title:visited {
-    /*color: #424242;*/
     color: white;
 }
 #site-title > span {
