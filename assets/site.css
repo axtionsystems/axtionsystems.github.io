@@ -46,9 +46,12 @@ a {
 h2 {
     margin-top: 2em;
 }
+.product h3, .product h4 {
+    color:#c73031;
+}
+
 .product h3 {
     margin-top: 2em;
-    color:#c73031;
 }
 
 .product table {
