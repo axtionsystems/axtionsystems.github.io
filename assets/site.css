@@ -203,11 +203,21 @@ footer ul {
 footer .contact-list {
     margin-right: 2em;
 }
+footer .right {
+    position:relative; 
+}
 #social-media-list .unit {
     float: left;
     padding: .5em;
     border: 1px solid #e8e8e8;
     margin: 5px 10px 5px 0;
+}
+#creditcards {
+    max-width: 20em;
+}
+#ssl-stamp {
+    width:6em;
+    margin-left:7em;
 }
 .svg-icon {
     width: 16px;
@@ -219,9 +229,9 @@ footer .contact-list {
 }
 .copyright {
     font-size: x-small;   
-    position: relative;
-    bottom: 0;
-    white-space: nowrap
+    position: absolute;
+    bottom: initial;
+    white-space: nowrap;
 }
 
 #site-title {
@@ -307,9 +317,15 @@ footer .contact-list {
     padding-bottom: 5px
 }
 
+@media screen and (max-width: 20em) {
+   #social-media-list {
+       padding-left: 1em;
+   } 
+}
+
 @media screen and (min-width: 35.5em) {
     .copyright {
-        line-height: 6;
+        font-size: small;
     }
 
     .category-title,
@@ -373,10 +389,12 @@ footer .contact-list {
     footer .contact-list {
         margin-right: 0;
     }
-
+    #stamp-list {
+        position: absolute;
+        bottom: 5em;
+    }
     .copyright {
-        font-size: small;
-        line-height: 5;
+        bottom: 0;
     }
 
     #category-list .unit,
