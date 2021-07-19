@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^axtionsystems\.prospecttoy\.com$
+RewriteRule ^/?$ "http\:\/\/axtionsystems\.com\/" [R=301,L]
